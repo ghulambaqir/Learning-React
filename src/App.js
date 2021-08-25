@@ -1,11 +1,17 @@
-import Component from './Component';
+// import Component from './Component';
+import ComponentPure from './ComponentPure';
 import './App.css';
+// import User1 from './User1';
 // import './Style.css'
 // import style from './custom.module.css'
 // import React, { useState } from 'react';
 // import User from './User'
 
 function App() {
+
+  // function parentAlert(data) {
+  //   alert(data)
+  // }
 
   // const names = [
   //   {
@@ -48,7 +54,10 @@ function App() {
 
   return (
     <div className="App">
-      <Component />
+
+      <ComponentPure />
+      {/* <User1 func={parentAlert} /> */}
+      {/* <Component /> */}
       {/* <h1>Printing Nested Array with map function</h1> */}
       {/* <table border="1">
         <tbody>
